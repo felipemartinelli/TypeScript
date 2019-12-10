@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var Carro_1 = require("./Carro");
+var c1 = new Carro_1.Carro();
+var c2 = new Carro_1.Carro();
+c1.setAno(1968);
+c1.setModelo("Fuscao Nervoso");
+c1.setPlaca("ABC1234");
+c1.setCor("Preto");
+c1.ligar();
+c1.andar();
+c1.parar();
+c1.desligar();
+c1.andar();
+//c1.parar();
