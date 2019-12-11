@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var Produto_1 = require("./Produto");
+var p1 = new Produto_1.Produto(1, "Maça", "Grande", 1.00, 2, "URL");
+var p2 = new Produto_1.Produto(2, "Pera", "Grande", 3.00, 5, "URL");
+console.log(p1.getInfo());
+console.log("-----------------");
+console.log(p2.getInfo());
+console.log("-----------------");
+console.log(p1);
